@@ -17,19 +17,19 @@
 
 [tae0y/real-estate-mcp](https://github.com/tae0y/real-estate-mcp)는 국토교통부 실거래가 등을
 MCP로 제공하는 훌륭한 프로젝트입니다. 여기에 온비드(공매) 도구 11종이 있었지만,
-2026년 7월 **의도적으로 제거**됐습니다.
+2026년 7월 **제거**됐습니다.
 
 > **[BREAKING CHANGES] Remove Onbid (공매) tools (#31)**
 > Onbid's API required repeated patches, making it unsustainable to maintain as a
 > personal project (announced deprecation, effective 2026-06-01).
 
-타당한 판단이었습니다. 실제로 온비드 API는 예고 없이 갈아엎어졌고, 구 엔드포인트는
+실제로 온비드 API는 변경되었고, 구 엔드포인트는
 **지금도 응답하지 않습니다.**
 
 그런데 확인해보니 **폐기가 아니라 이관**이었습니다. 캠코가 *차세대 온비드*로 옮기면서
 서비스 주소·응답 스키마·필수 파라미터를 전부 바꿨고, 공지가 눈에 띄지 않았을 뿐입니다.
 
-이 저장소는 그 이관을 따라잡아 **온비드를 다시 쓸 수 있게** 합니다.
+이 저장소는 그 이관을 바로잡아 **온비드를 다시 쓸 수 있게** 합니다.
 
 ---
 
