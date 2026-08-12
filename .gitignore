@@ -1,0 +1,14 @@
+# 시크릿 — 절대 커밋 금지
+.env
+.env.*
+*.key
+*_secret*
+credentials*
+
+# 문서 원본(공공데이터포털 배포물, 재배포 대상 아님)
+*.docx
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
